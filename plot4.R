@@ -1,4 +1,4 @@
-png(file = "Plot4.png",
+png(file = "./images/Plot4.png",
     width = 480,
     height = 480,
     units = "px"
@@ -35,7 +35,7 @@ with(hpc_set,{
     plot(obsDateTime,
          Global_reactive_power,
          type = "l",
-         xlab = "datetime",
+         xlab = "datetime"
     )
 
 })

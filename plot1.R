@@ -1,4 +1,4 @@
-png(file = "Plot1.png",
+png(file = "./images/Plot1.png",
     width = 480,
     height = 480,
     units = "px"
