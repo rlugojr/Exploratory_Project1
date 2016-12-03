@@ -1,10 +1,10 @@
-png(file = "Plot2.png",
+png(file = "Plot3.png",
     width = 480,
     height = 480,
     units = "px"
 )
 
-with(hpc_set, plot(obsDateTime, Sub_metering_1, ylab = "Energy sub metering", type = "n"))
+with(hpc_set, plot(obsDateTime, Sub_metering_1, ylab = "Energy sub metering", xlab = "", type = "n"))
 with(hpc_set, points(obsDateTime, Sub_metering_1, col = "black", type = "s"))
 with(hpc_set, points(obsDateTime, Sub_metering_2, col = "red", type = "s"))
 with(hpc_set, points(obsDateTime, Sub_metering_3, col = "blue", type = "s"))
