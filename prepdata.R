@@ -1,12 +1,9 @@
-library(chunked)
 library(tibble)
+library(readr)
 library(dplyr)
 library(dtplyr)
 library(data.table)
-library(reshape2)
 library(lubridate)
-library(stringr)
-library(tidyr)
 
 
 rm(list = ls())
@@ -36,6 +33,10 @@ hpc_set <- cbind(obsDateTime,hpc_set)
 
 rm("obsDateTime")
 
+source("plot1.R")
 
+source("plot2.R")
 
+source("plot3.R")
 
+source("plot4.R")
